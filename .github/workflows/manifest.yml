@@ -35,5 +35,5 @@ jobs:
         df -h
         which wget
         which curl
-        curl -X POST -H "Content-Type: application/json" -d '{"value1":"hello DevOps students – you can do this too!","value2":"","value3":""}' https://maker.ifttt.com/trigger/triggerdevops/with/key/d8I1ouuP4fTbw5rAY6ZMWg   
+        curl -X POST -H "Content-Type: application/json" -d '{"value1":"Hi Fu Sheng - You did it!","value2":"","value3":""}' https://maker.ifttt.com/trigger/sendsTGmessage_onchange/with/key/jRcgUHAH2hH3pox1FlTUAJzfEUH1f5_vrJiCxwAa0qX    
     # End
