@@ -35,5 +35,5 @@ jobs:
         df -h
         which wget
         which curl
-        curl -X POST -H "Content-Type: application/json" -d '{"Congratulations Fu Sheng, you have done it"}' https://maker.ifttt.com/trigger/build_triggered/json/with/key/d8I1ouuP4fTbw5rAY6ZMWg
+        curl -X POST -H "Content-Type: application/json" -d '{"this":[{"is":{"some":["test","data"]}}]}' https://maker.ifttt.com/trigger/build_triggered/json/with/key/d8I1ouuP4fTbw5rAY6ZMWg
     # End
