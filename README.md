@@ -12,8 +12,14 @@ A project which would trigger a CI/CD Pipeline in the GitHub Actions upon pushin
 6. Update the CURL in the manifest.yml file with the one copied from the documentation
 7. Commit changes to test if the CI/CD pipeline is being triggered in the GitHub Actions
 
-## Challenges Faced
+## Challenges Faced & How I Overcome It
 
-- I was unable to generate the Extra Data. Is it showing {{JsonPayload}}
-- Took a long time to integrate to IFTTT. Small details such as including the {event} in the curl request of the manifest.yml
+- I was unable to generate the Extra Data. It is showing {{JsonPayload}}
+![image](https://github.com/Drakeral/ghactions-tele-trigger/assets/100014737/614c4ae6-d3eb-4924-852c-d3bb7ee15510)
++ How I overcome it was to use Postman and import the curl. From there I was able to play around with the body request such that the JSON body would be accepted.
+
+- Took a long time to integrate to IFTTT. Small details such as including the {event} in the api endpoint was left out
++ Read documentation carefully to ensure every single line was understood
+
 - Added a seperate IFTTT bot into my own group chat. This is dangerous as we are giving admin permission to a stranger in the group chat we are creating
++ As developers or techies, we ourselves can also fall prey to hackers and scammers. Be extra careful when building new projects even though it may be a small one. 
